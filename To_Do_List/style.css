@@ -1,0 +1,79 @@
+body  {
+
+    /* height: 100vh; */
+    background-color: aqua;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.container{
+
+background-color:coral;
+padding: 20px;
+border-radius: 5px;
+margin-top: 20px;
+width: 600px;
+text-align: center;
+    
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+
+#taskInput{
+
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+#addTaskButton{
+
+ background-color: aquamarine;
+ border: 2px solid black;
+ padding: 5px;
+ border-radius: 5px;
+
+}
+
+#addTaskButton:hover{
+
+    background-color: aqua;
+    transition: 1s;
+}
+
+
+#taskList{
+
+    list-style-type: none;
+    padding: 0;
+}
+
+.task{
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.task button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #c82333;
+}
